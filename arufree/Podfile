@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'arufree' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for arufree
+
+	pod 'Firebase/Core'
+
+  target 'arufreeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'arufreeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
